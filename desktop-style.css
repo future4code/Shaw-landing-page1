@@ -83,21 +83,37 @@
         height:100vh; 
     }
 
-
-    
-
-    
-        
-        
-    
-
-   
     #Tela1
     {
+        background-color: #f8f3ef;
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
 
-        /* background-color: blueviolet; */
-        
     }
+
+        .conteudo{
+            display: table;
+        }
+        
+        
+        .ilustração-1p img{
+            display: table-cell;
+            width: 50%;
+            max-width: 80%;
+            float: right
+        }
+    
+    
+        .texto-propaganda{
+            display: table-cell;
+            width: 400px;
+            float: left;
+        }
+    
+       
+        
+ 
 
     /* ======================TELA 2====================== */
 
@@ -152,33 +168,8 @@
     
     }
 
-    .conteudo{
-        display: table;
-    }
-    
-    
-    .ilustração-1p img{
-        display: table-cell;
-        width: 50%;
-        max-width: 80%;
-        float: right
-    }
 
 
-    .texto-propaganda{
-        display: table-cell;
-        width: 400px;
-        float: left;
-    }
-
-   
-
-
-    #Tela2
-    {   
-        background-color: red;
-
-    }
 
     .container-produto
     {
@@ -213,7 +204,7 @@
     {
         background-color: brown;
     }
-    
+   
 
 
 
