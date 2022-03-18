@@ -112,9 +112,12 @@
         height: 85%;
         width: 100%;
         padding-top: 2%;  
+
         text-justify: auto;
         text-align:justify;
         font-size: 0.8rem;
+
+        color: #b45317;
             
     }
 
