@@ -19,6 +19,7 @@
         /* NÃO TEM ALTURA FIXA, ELE VAI CONTER TODO O CONTEUDO */
 
         align-items: center;
+        background-color: #f8f3ef;
        
 
         
@@ -32,9 +33,9 @@
         background-color: #FF914D;
         position: fixed;
         flex-grow: 0;
-        justify-content: space-between;
         /* as parent */
         display: flex; 
+        justify-content: space-between;
         
     }
 
@@ -72,6 +73,7 @@
         /* MARGIN DE TELAS (MUDAR AQUI) */
         width: 80%; 
         
+        
     }
 
 
@@ -92,6 +94,57 @@
    
     #Tela1
     {
+
+        /* background-color: blueviolet; */
+        
+    }
+
+    /* ======================TELA 2====================== */
+
+    #Tela2
+    {
+        /* Font */
+        font-family: 'Merriweather', sans-serif;
+
+        /* Properties as parent */
+        display: flex; 
+        flex-direction: column;
+        justify-items: center;
+  
+    }
+
+    #titulo-produto
+    {
+        display: flex;
+        width: 100%;
+        height: 10%; 
+    
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+
+        /* Font */
+        color: #c25f22;
+        font-size: 2.2rem;
+        font-weight: 200;
+
+    }
+
+    .product-description
+    {
+        display: flex;
+        flex-direction: row;
+        height: 85%;
+        width: 100%;
+        padding-top: 2%;  
+
+        text-justify: auto;
+        text-align:justify;
+        font-size: 0.8rem;
+
+        color: #b45317;
+            
+
         background-color: #F8F3EF;
         display: flex;
         flex-direction: row;
@@ -124,7 +177,37 @@
     #Tela2
     {   
         background-color: red;
+
     }
+
+    .container-produto
+    {
+        min-width: 54%;    
+        height: 100%;
+        padding-right: 5%;  
+    }
+
+    .container-produto img {
+        width: 100%;
+        box-shadow: 0.05rem 0.05rem  0.05rem   
+    };
+
+    #product-caption
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #product-caption-header
+    {
+        display: flex;
+       justify-self: center;
+       justify-content: center;
+    }
+
+   
+  
+    /* ======================TELA 2====================== */
 
     #Tela3
     {
