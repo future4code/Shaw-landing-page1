@@ -17,6 +17,11 @@
         flex-direction: column;
         width: 100vw;
         /* NÃO TEM ALTURA FIXA, ELE VAI CONTER TODO O CONTEUDO */
+
+        align-items: center;
+       
+
+        
     }
 
     header
@@ -30,8 +35,7 @@
 
         /* as parent */
         display: flex; 
-        justify-content: space-between;
-       
+        
     }
 
     #logo
@@ -44,6 +48,15 @@
         height: 100%;
     }
 
+    main {
+        display: flex; 
+        flex-direction: column;
+
+        /* MARGIN DE TELAS (MUDAR AQUI) */
+        width: 80%; 
+        
+    }
+
 
     section 
     {
@@ -53,6 +66,7 @@
 
     #Tela1
     {
+        background-color: blueviolet;
         
     }
 
@@ -65,6 +79,7 @@
     {
         background-color: brown;
     }
+    
 
 
 
