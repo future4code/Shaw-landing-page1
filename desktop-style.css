@@ -32,10 +32,27 @@
         background-color: #FF914D;
         position: fixed;
         flex-grow: 0;
-
+        justify-content: space-between;
         /* as parent */
         display: flex; 
         
+    }
+
+    .botao-login{
+        padding-right: 5%;
+        align-self: center;
+    }
+
+    #hamburger{
+        display: none;
+    }
+
+    .button{
+        display: flex;
+        background-color: rgb(247, 247, 247);
+        padding: 15%;
+        border-right-width: 20%;
+
     }
 
     #logo
@@ -64,14 +81,48 @@
         height:100vh; 
     }
 
+
+    
+
+    
+        
+        
+    
+
+   
     #Tela1
     {
-        background-color: blueviolet;
-        
+        background-color: #F8F3EF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
     }
 
+    .conteudo{
+        display: table;
+    }
+    
+    
+    .ilustração-1p img{
+        display: table-cell;
+        width: 50%;
+        max-width: 80%;
+        float: right
+    }
+
+
+    .texto-propaganda{
+        display: table-cell;
+        width: 400px;
+        float: left;
+    }
+
+   
+
+
     #Tela2
-    {
+    {   
         background-color: red;
     }
 
@@ -94,4 +145,3 @@ footer
 }
 
     
-}
