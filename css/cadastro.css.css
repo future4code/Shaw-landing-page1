@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+   /*trocar o fundo*/
+    background:pink;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+body img{
+    height: 100vh;
+}
+
+main{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255,165,0,0.5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    align-self: center;
+}
+
+main h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .social-midial{
+    display: flex;
+    align-content: center;
+}
+
+main .social-midial a{
+    text-decoration: none;
+}
+
+main .social-midial{
+    width: 1.3rem;
+    margin-left:3rem;
+}
+
+main .social-midial a:first-child img{
+    margin: left 0;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input{
+    background: orange;
+    width: 19rem;
+    height: 3rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+main form input [type="submit"]{
+    cursor: pointer;
+    width:50%;
+    margin-top:4rem;
+    border:none;
+    border-radius:2rem;
+    font-size: 1.1rem;
+    transition: all .3 ease-in-out;
+}
+
+main form input [type="submit"]:hover{
+    background: chocolate;
+}
+
+.ilustracao-cadastro{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.ilustracao-cadastro img{
+    max-width: 80%;
+    height:90% ;
+    background-size: cover;
+}
