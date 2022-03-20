@@ -10,9 +10,12 @@
 {
     /* celulares */
 
-    
+    #Main-Container-DESKTOP
+    {
+        display: none; 
+    }
 
-    #Main-Container
+    #Main-Container-MOBILE
     {
         display: flex; 
         flex-direction: column;
