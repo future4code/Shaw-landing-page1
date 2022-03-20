@@ -17,9 +17,7 @@
 
         align-items: center;
         background-color: #f8f3ef;
-       
-
-        
+      
     }
 
     header
@@ -35,6 +33,22 @@
         justify-content: space-between;
         
     }
+    #menu-contents a
+    {
+        text-decoration: none;
+        color: white;   
+    }
+
+
+    #menu-contents
+    {
+        display: flex;
+        color: white;
+        align-self: center;
+        font-family: 'Poppins', 'san-serif';
+        font-weight:500
+        
+    }
 
     .botao-login{
         padding-right: 5%;
@@ -47,7 +61,6 @@
         background-color: rgb(247, 247, 247);
         padding: 15%;
         border-right-width: 20%;
-
     }
 
     #logo
@@ -77,24 +90,58 @@
     }
 
     #Tela1
-    {
+    {   position: relative;
+        top:10vh;
+        left:0vw;
         background-color: #f8f3ef;
-        display: flex;
-        flex-direction: row; 
         align-items: center;
-
+        width: 100%;
+        height: 85vh;
     }
 
-        .conteudo{
-            display: table;
+    
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        height: 90vh;
+        width: 100;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #titulo-landing-page
+    {
+        text-align: center;
+        width: 100%;
+        height: 10%; 
+    
+        /* Font */
+        font-family: 'Merriweather', sans-serif;
+        color: #c25f22;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .texto-propaganda
+    {
+        font-family: 'Poppins', 'sans-serif';
+        font-size: 1.3rem;
+        color: #cc9d4b;
+        color: #c25f22;
+        font-weight: 500;
+        width: 50%;
+    }
+
+        
+        .ilustração-1p 
+        {   
+            width: 50%;
         }
         
-        
         .ilustração-1p img{
-            display: table-cell;
-            width: 50%;
-            max-width: 80%;
-            float: right
+            display: flex;
+            width: 100%;
+           
         }
     
     
@@ -115,7 +162,7 @@
     #Tela2
     {
         /* Font */
-        font-family: 'Merriweather', sans-serif;
+        
         
        
         width: 100%;
@@ -127,7 +174,7 @@
   
     }
 
-    #titulo-produto
+    .titulo-produto
     {
         display: flex;
         width: 100%;
@@ -138,6 +185,7 @@
         align-self: center;
 
         /* Font */
+        font-family: 'Merriweather', sans-serif;
         color: #c25f22;
         font-size: 2.2rem;
         font-weight: 200;
@@ -162,10 +210,11 @@
         color: #b45317;
         background-color: #F8F3EF;
         align-items: flex-start;
+    }
 
-      
-    
-    
+    #sem-taxa-cartao
+    {
+        display: inline;
     }
 
     .container-produto
@@ -181,20 +230,20 @@
         box-shadow: 0.05rem 0.05rem  0.05rem   
     }
 
-    #product-caption
+    .product-caption
     {
        
         align-self: flex-start; 
         max-width: 50%;
         
-
-        font-size: 0.95rem;
+        font-family: 'Poppins', 'san-serif';
+        font-size: 85%;
         padding: 1.5%;
 
 
     }
 
-    #product-caption-header
+    .product-caption-header
     {
         display: flex;
        justify-self: center;
