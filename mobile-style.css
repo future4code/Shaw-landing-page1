@@ -54,29 +54,203 @@
         background-size: cover;
         background-color: rgba(255,255,255,0.25);
         background-blend-mode:lighten; 
+        display: flex;
+        flex-direction: column;
+
+        justify-content:space-evenly;
+        align-items: center;
+    }
+
+    #cadastro-container
+    {
+        display: flex;
+        flex-direction: column;
+        height: 25%;
+        width: 80%;
+        /* padding-top: 30%; */
+        color: rgb(255, 145, 0);
+
+      
+
+        /* justify-content: space-around; */
+        align-items: center;
+
+    }
+
+    #cadastro-title
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        padding-bottom: 10%;
+        padding-top: 35%;
+        
+
+    }
+    
+    #mobile-slogan
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        color: rgb(255, 145, 0);
+        font-weight: bold;
+        padding-bottom: 20%;
+        width: 90%;
+        justify-self: flex-start;
     }
 
     #Tela2-Mobile
     {
-        background-color: red;
+        background-image: url(img/mobile-tela2-cover.jpg);
+        background-size : cover; 
+        background-color: rgba(255,255,255,0);
+        background-color: rgba(0, 0, 0, 0.82);
+        background-blend-mode:darken;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
+        justify-content: space-evenly;
+        align-items: center;
+
+        color: rgb(255, 145, 0);
     }
 
+    .mobile-product-title
+    {
+        font-family: 'Merriweather', sans-serif;
+        font-size: 1.3rem;
+        height: 10%;
+        font-weight: bolder;
+    }
+
+    .mobile-product-description
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        height: 90%;
+        width: 80%;
+        
+    }
     #Tela3-Mobile
     {
-        background-color: brown;
+        background-image: url(img/mobile-tela3-cover.jpg);
+        background-size : cover; 
+        background-color: rgba(0, 0, 0, 0.7);
+        background-blend-mode:darken;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
+        justify-content: space-evenly;
+        align-items: center;
+
+        color: white
     }
 
+    #Tela3-Mobile .mobile-product-description
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+       
+        height: 90%;
+        width: 80%;
+        
+    }
 
+    #Tela4-Mobile
+    {
+        background-image: url(img/mobile-tela4-cover.jpg);
+        background-size : cover; 
+        background-color: rgba(0, 0, 0, 0.7);
+        background-blend-mode:darken;
 
-   
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 85vh;
+        color: rgb(245, 178, 10)
+
+    }
+#mobile-email
+{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.815);
+}
+
 footer 
 {
     width: 100%; 
     height: 10vh;
-    background-color: blue;
+    background-color: #FF914D;
     flex-grow: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 
 }
 
+.footer-logos
+{
+    display: flex; 
+    background-color: #FF914D;
+    height: 60%;
+    width: 35%;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+    align-content: center;
+  
+    
 }
+
+.footer-logos img
+{
+    background-color: #FF914D;
+}
+.footer-logos a
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#twitter-logo
+{
+    max-height: 80%;
+    
+}
+
+#facebook-logo
+{
+    max-height: 100%;
+}
+
+#instagram-logo
+{
+    max-height: 88%;
+}
+
+footer p 
+{
+    display: inline;
+    padding-right: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+
+    }
+
+    
+
+
+   
+
+
     
