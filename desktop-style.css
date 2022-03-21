@@ -150,9 +150,9 @@
         font-weight: 500;
         min-width: 52%;
 
-        border:#b45317 0.5vh groove;
-        padding: 3.5%;
-        border-radius: 15%;
+        border:#b45317 0.6vh double;
+        padding: 3%;
+        /* border-radius: 15%; */
     }
 
         
@@ -264,17 +264,13 @@
         font-size: 85%;
         padding: 1.5%;
 
-
     }
 
     .product-caption-header
     {
         display: flex;
        justify-self: center;
-       justify-content: center;
-
-    
-       
+       justify-content: center;  
     }
 
     .product-name
@@ -290,9 +286,20 @@
   
     /* ======================TELA 2====================== */
 
+    /* ======================TELA 3====================== */
+
     #Tela3
     {
+        display: flex;
+        flex-direction: column;
         
+
+        
+    }
+
+    .mapa-contato
+    {
+        display: flex; 
     }
    
 
@@ -302,10 +309,66 @@
 footer 
 {
     width: 100%; 
-    height: 10vh;
-    background-color: blue;
+    height: 8vh;
+    background-color: #FF914D;
     flex-grow: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
 
+}
+
+.footer-logos
+{
+    display: flex; 
+    background-color: #FF914D;
+    height: 60%;
+    width: 7%;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+    align-content: center;
+  
+    
+}
+
+.footer-logos img
+{
+    background-color: #FF914D;
+}
+.footer-logos a
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#twitter-logo
+{
+    max-height: 80%;
+    
+}
+
+#facebook-logo
+{
+    max-height: 100%;
+}
+
+#instagram-logo
+{
+    max-height: 88%;
+}
+
+footer p 
+{
+    display: inline;
+    padding-right: 1%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
     
