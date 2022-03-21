@@ -27,9 +27,13 @@ SITE DESKTOP
 ![image](https://user-images.githubusercontent.com/99181273/159196134-b8de7f68-6e41-4dd8-a9ed-a1a6ce11c522.png)
 
 SITE MOBILE
+
 ![image](https://user-images.githubusercontent.com/99181273/159200178-86249774-5438-4952-854e-832ac1fe9868.png)
+
 ![image](https://user-images.githubusercontent.com/99181273/159200204-b9dae5df-62d7-4515-bca2-53a14c1be7af.png)
+
 ![image](https://user-images.githubusercontent.com/99181273/159200233-c6ae5467-772f-4994-9b58-e83b388db242.png)
+
 ![image](https://user-images.githubusercontent.com/99181273/159200255-6720a0a4-596c-4aae-9052-5ec5517b8426.png)
 
 
