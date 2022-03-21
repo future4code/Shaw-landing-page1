@@ -189,7 +189,7 @@
         
        
         width: 100%;
-        height: 150vh;
+        height: 130vh;
         /* Properties as parent */
         display: flex; 
         flex-direction: column;
@@ -226,7 +226,7 @@
     {
         display: flex;
         flex-direction: row;
-        height: 35%;
+        height: 70%;
         width: 100%;
         padding: 2%;  
 
@@ -291,15 +291,47 @@
     #Tela3
     {
         display: flex;
-        flex-direction: column;
-        
-
+        flex-direction: column;  
+        height: 85vh;
+        justify-content: center;
+        color: #b45317;
         
     }
 
     .mapa-contato
     {
+        height: 60%;
+    }
+
+    #Tela3 .product-description
+    {
+        min-width: 54%;
+        height: 100%;
+    }
+
+    #Tela3 .container-produto
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    #Tela3 .container-produto iframe
+    {
+        width: 100%;
+        
+
+    }
+
+    .mapa-contato .product-caption
+    {
+        min-width: 40%
+    }
+
+    .mapa-contato
+    {
         display: flex; 
+        width: 100%;
     }
    
 
