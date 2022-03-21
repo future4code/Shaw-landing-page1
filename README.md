@@ -14,7 +14,7 @@
 
 ## O QUE NÃO FUNCIONA: 
 - Botão Hambuguer sem funcionalidade (MOBILE)
-- Botãp LOGIN não tem funcionalidade (DESKTOP E MOBILE)
+- Botão LOGIN não tem funcionalidade (DESKTOP E MOBILE)
 
 SURGE: 
 
