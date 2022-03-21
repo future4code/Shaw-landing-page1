@@ -17,9 +17,7 @@
 
         align-items: center;
         background-color: #f8f3ef;
-       
-
-        
+      
     }
 
     header
@@ -35,6 +33,22 @@
         justify-content: space-between;
         
     }
+    #menu-contents a
+    {
+        text-decoration: none;
+        color: white;   
+    }
+
+
+    #menu-contents
+    {
+        display: flex;
+        color: white;
+        align-self: center;
+        font-family: 'Poppins', 'san-serif';
+        font-weight:500
+        
+    }
 
     .botao-login{
         padding-right: 5%;
@@ -47,7 +61,6 @@
         background-color: rgb(247, 247, 247);
         padding: 15%;
         border-right-width: 20%;
-
     }
 
     #logo
@@ -77,24 +90,81 @@
     }
 
     #Tela1
-    {
-        background-color: #f8f3ef;
+    { 
         display: flex;
-        flex-direction: row; 
+        flex-direction: column;
+        background-color: #f8f3ef;
+
         align-items: center;
+        width: 100%;
+        height: 100vh;
+
+        
+    }
+
+    #mensagem-cadastro
+    {
+        font-family: 'Merriweather', sans-serif;
+        color: #FF914D;
+        font-size: 2.2rem;
+        font-weight: 600;
+
+        position: relative; 
+        top: 10vh;
+
+        border-bottom: #FF914D solid 0.7vh;
 
     }
 
-        .conteudo{
-            display: table;
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        
+
+     
+    }
+
+    #titulo-landing-page
+    {
+        text-align: center;
+        width: 100%;
+        height: 10%; 
+    
+        /* Font */
+        font-family: 'Merriweather', sans-serif;
+        color: #c25f22;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .texto-propaganda
+    {
+        font-family: 'Poppins', 'sans-serif';
+        font-size: 1.3rem;
+        color: #cc9d4b;
+        color: #c25f22;
+        font-weight: 500;
+        min-width: 52%;
+
+        border:#b45317 0.6vh double;
+        padding: 3%;
+        /* border-radius: 15%; */
+    }
+
+        
+        .ilustração-1p 
+        {   
+            max-width: 40%;
         }
         
-        
         .ilustração-1p img{
-            display: table-cell;
-            width: 50%;
-            max-width: 80%;
-            float: right
+            display: flex;
+            width: 100%;
+           
         }
     
     
@@ -115,11 +185,11 @@
     #Tela2
     {
         /* Font */
-        font-family: 'Merriweather', sans-serif;
+        
         
        
         width: 100%;
-        height: 150vh;
+        height: 130vh;
         /* Properties as parent */
         display: flex; 
         flex-direction: column;
@@ -127,7 +197,7 @@
   
     }
 
-    #titulo-produto
+    .titulo-produto
     {
         display: flex;
         width: 100%;
@@ -138,6 +208,7 @@
         align-self: center;
 
         /* Font */
+        font-family: 'Merriweather', sans-serif;
         color: #c25f22;
         font-size: 2.2rem;
         font-weight: 200;
@@ -155,17 +226,19 @@
     {
         display: flex;
         flex-direction: row;
-        height: 45%;
+        height: 70%;
         width: 100%;
         padding: 2%;  
 
         color: #b45317;
         background-color: #F8F3EF;
         align-items: flex-start;
+    }
 
-      
-    
-    
+    #sem-taxa-cartao
+    {
+       padding-top: 5vh;
+
     }
 
     .container-produto
@@ -181,27 +254,23 @@
         box-shadow: 0.05rem 0.05rem  0.05rem   
     }
 
-    #product-caption
+    .product-caption
     {
        
         align-self: flex-start; 
         max-width: 50%;
         
-
-        font-size: 0.95rem;
+        font-family: 'Poppins', 'san-serif';
+        font-size: 85%;
         padding: 1.5%;
-
 
     }
 
-    #product-caption-header
+    .product-caption-header
     {
         display: flex;
        justify-self: center;
-       justify-content: center;
-
-    
-       
+       justify-content: center;  
     }
 
     .product-name
@@ -217,9 +286,52 @@
   
     /* ======================TELA 2====================== */
 
+    /* ======================TELA 3====================== */
+
     #Tela3
     {
+        display: flex;
+        flex-direction: column;  
+        height: 85vh;
+        justify-content: center;
+        color: #b45317;
         
+    }
+
+    .mapa-contato
+    {
+        height: 60%;
+    }
+
+    #Tela3 .product-description
+    {
+        min-width: 54%;
+        height: 100%;
+    }
+
+    #Tela3 .container-produto
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    #Tela3 .container-produto iframe
+    {
+        width: 100%;
+        
+
+    }
+
+    .mapa-contato .product-caption
+    {
+        min-width: 40%
+    }
+
+    .mapa-contato
+    {
+        display: flex; 
+        width: 100%;
     }
    
 
@@ -229,10 +341,66 @@
 footer 
 {
     width: 100%; 
-    height: 10vh;
-    background-color: blue;
+    height: 8vh;
+    background-color: #FF914D;
     flex-grow: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
 
+}
+
+.footer-logos
+{
+    display: flex; 
+    background-color: #FF914D;
+    height: 60%;
+    width: 7%;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+    align-content: center;
+  
+    
+}
+
+.footer-logos img
+{
+    background-color: #FF914D;
+}
+.footer-logos a
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#twitter-logo
+{
+    max-height: 80%;
+    
+}
+
+#facebook-logo
+{
+    max-height: 100%;
+}
+
+#instagram-logo
+{
+    max-height: 88%;
+}
+
+footer p 
+{
+    display: inline;
+    padding-right: 1%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
     
