@@ -1,7 +1,7 @@
 # Projeto Landing Page (FS BANK)
 ## GRUPO 1 : Martin Sejas, Rani Cristina, Jacson Crestani
 
-## O QUE FUNCIONA: 
+## oque funciona: 
 
 - HEADER
 - APERTAR EM QUALQUER LINK DO HEADER TE PULA PARA A SEÇÃO INDICADA
